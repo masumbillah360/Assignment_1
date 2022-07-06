@@ -39,6 +39,7 @@
     text-decoration: none;
     margin-top: 30px;
     border-radius: 5px;
+    cursor:alias;
 }
 
 .donation-description{
@@ -66,11 +67,12 @@
     font-size: 30px;
     font-weight: 900;
     text-align: center;
+    color: dimgray;
     padding: 30px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(247, 247, 247);
     margin: 20px;
     border-radius: 5px;
-    border: none;
+    /* border: none; */
 }
 
 
@@ -131,6 +133,53 @@
     background-color: rgb(255, 244, 239);
 }
 
+
+
+.about-section{
+    margin-top: 50px;
+}
+.about-section-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.about-card{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    color: dimgray;
+}
+.about-card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.about-card .name{
+    margin-top: 15px;
+}
+.about-card .job-title{
+    margin-bottom: 40px;
+}
+
+.contact-btn{
+    text-decoration: none;
+    background-color:tomato;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
 .subsribe-section{
     margin-top: 100px;
 }
@@ -155,9 +204,10 @@
 }
 .submit-btn{
     border: none;
-    padding: 10px;
+    padding:10px;
     font-size: 18px;
     background-color:tomato;
+    margin-left:-3px;
     border-radius: 0px 5px 5px 0px;
 
 }
