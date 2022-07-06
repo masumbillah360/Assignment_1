@@ -213,6 +213,12 @@
     border-radius: 0px 5px 5px 0px;
 
 }
+
+.donate{
+    color: #FF5959;
+}
+
+/* Footer_section */
 footer{
     
     height: 150px;
