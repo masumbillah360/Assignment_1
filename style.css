@@ -61,15 +61,19 @@
     justify-content: center;
     margin-top: 30px;
 }
-.donation-amount h1{
+.donation-amount input{
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
     padding: 30px;
     background-color: rgb(245, 245, 245);
     margin: 20px;
     border-radius: 5px;
+    border: none;
 }
 
 
-#selected-amount{
+#selected-btn{
     border: 2px solid tomato;
     background-color: rgb(250, 220, 236);
 }
@@ -101,11 +105,11 @@
     justify-content: center;
 }
 .card{
-    width: 250px;
+    width: 260px;
     height: 250px;
     margin: 20px;
     padding: 20px;
-    background-color:azure ;
+    background-color:rgb(240, 255, 255) ;
     text-align: center;
     border-radius: 5px;
 
@@ -120,10 +124,10 @@
     font-size: 16px;
 }
 #card-2{
-    background-color: rgb(255, 235, 239);
+    background-color: rgb(255, 245, 247);
 }
 #card-3{
-    background-color: rgb(255, 230, 218);
+    background-color: rgb(255, 244, 239);
 }
 
 .subsribe-section{
@@ -166,7 +170,7 @@ footer{
 }
 
 .footer-title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: tomato;
     padding: 30px;
 }
