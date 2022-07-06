@@ -69,7 +69,7 @@
     text-align: center;
     color: dimgray;
     padding: 30px;
-    background-color: rgb(247, 247, 247);
+    background-color: #FAFAFA;
     margin: 20px;
     border-radius: 5px;
     /* border: none; */
@@ -77,6 +77,7 @@
 
 
 #selected-amount{
+    color:#FF5959;
     border: 2px solid #FF5959;
     background-color: rgb(255, 238, 247);
 }
@@ -130,7 +131,7 @@
     background-color: rgb(255, 245, 247);
 }
 #card-3{
-    background-color: rgb(255, 244, 239);
+    background-color: #FFF4D6;
 }
 
 
@@ -187,7 +188,7 @@
     width: 60%;
     margin: 0 auto;
     height: 170px;
-    background-color: bisque;
+    background-color: #FFF4D6;
     display: flex;
     justify-content: center;
     align-items: center;
