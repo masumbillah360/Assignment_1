@@ -64,6 +64,7 @@
 .donation-amount input{
     width: 150px;
     font-size: 30px;
+    font-weight: 900;
     text-align: center;
     padding: 30px;
     background-color: rgb(245, 245, 245);
