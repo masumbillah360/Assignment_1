@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Top_banner_section_starts */
 .top-banner{
     height:600px;
     background-image: url("./images/donation-f.jpg");
@@ -43,7 +44,14 @@
     border-radius: 5px;
     border: none;
 }
+.donate{
+    color: #FF5959;
+}
 
+/* Top_banner_section_ends */
+
+/* Donation-section_start's */
+/* Donation-section_start's */
 .donation-description{
     margin-top: 100px;
 }
@@ -121,13 +129,10 @@
     background-color:rgb(240, 255, 255) ;
     text-align: center;
     border-radius: 5px;
-
-
 }
+
 .card-title{
     padding: 15px;
-    /* font-weight: bold; */
-
 }
 .card-desc{
     text-align: justify;
@@ -141,8 +146,10 @@
     background-color: #FFF4D6;
 }
 
+/* Donation-section_Ends's */
 
 
+/* About-section_start's */
 .about-section{
     margin-top: 50px;
 }
@@ -170,6 +177,7 @@
 }
 .about-card .name{
     margin-top: 15px;
+    color: rgb(19, 10, 10);
 }
 .about-card .job-title{
     margin-bottom: 40px;
@@ -177,17 +185,17 @@
 
 .contact-btn{
     text-decoration: none;
-    background-color:#FF5959;
+    /* background-color:#FF5959; */
+    background-color: rgba(0, 0, 0, 0.349);
     padding: 5px 30px;
     color: white;
-    /* font-weight: bold; */
     border-radius: 5px;
     font-size: 20px;
 }
+/* About-section_End's */
 
 
-
-
+/* NewsLatter-section_Start's */
 .subsribe-section{
     margin-top: 100px;
 }
@@ -202,7 +210,7 @@
     text-align: center;
 }
 .input-email{
-    width: 200px;
+    width: 300px;
     padding: 10px;
     border-radius: 5px 0px 0px 5px;
     border: none;
@@ -217,16 +225,11 @@
     background-color:#FF5959;
     margin-left:-3px;
     border-radius: 0px 5px 5px 0px;
-
 }
-
-.donate{
-    color: #FF5959;
-}
+/* NewsLatter-section_End's */
 
 /* Footer_section */
 footer{
-    
     height: 150px;
     margin-top: 100px;
     background-color: rgb(15, 11, 15);
@@ -245,3 +248,5 @@ footer{
 .copyright{
     color: dimgray;
 }
+
+/* Footer-section_End's */
